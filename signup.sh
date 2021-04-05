@@ -32,6 +32,6 @@ source $(dirname $0)/util/auth.sh
 
 source $(dirname $0)/util/acc.sh
 
-echo "For generate token again in future you can use \"bash accounts/$email.sh\" command."
+echo "For generate token again in future you can use \"bash accounts/$userType-$email.sh\" command."
 echo "Current token copied to clipboard!"
 echo ""

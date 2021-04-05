@@ -1,5 +1,5 @@
 mkdir -p accounts
-cat <<END >accounts/$email.sh
+cat <<END >accounts/$userType-$email.sh
 aws cognito-idp initiate-auth \\
     --region $region \\
     --profile $profileName \\
