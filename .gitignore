@@ -1,1 +1,4 @@
 accounts/
+.DS_Store
+awscli-bundle.zip
+awscli-bundle/
