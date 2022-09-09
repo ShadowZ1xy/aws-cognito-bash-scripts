@@ -5,4 +5,4 @@ aws cognito-idp initiate-auth \
     --client-id $clientId \
     --auth-parameters USERNAME=$email,PASSWORD=$password \
     --query 'AuthenticationResult.IdToken' \
-    --output text | pbcopy
+    --output text | xclip -selection c
